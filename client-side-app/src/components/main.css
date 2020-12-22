@@ -1,0 +1,217 @@
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+}
+.join-div{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    background: linear-gradient(120deg,black,rgb(29, 28, 28));
+}
+.form{
+    margin: 0 auto;
+    color: white;
+    width:250px;
+    
+    border-radius: 3px;
+    padding: 15px;
+    transition: 0.5s ;
+}
+.form:hover{
+    border:1px solid red;
+    box-shadow:0px 0px 5px red;
+    border-radius:20px;
+}
+.form p{    
+   font-size: 40px;
+   padding-bottom: 10px;
+   border-bottom: 2px solid white;
+   border-block-start-width: 3px;
+}
+.form input{
+    width:50%;
+    margin-bottom: 8px;
+    background: white;
+    border:none;
+    border-radius: 20px;
+    text-align:center;
+    height:25px;
+    transition: 0.5s ease;
+}
+.form input:hover{
+    border:1px solid red;
+    width: 100%;
+    box-shadow:0px 0px 50px red;
+    color: grey;
+}
+.form input:focus{
+    color:black
+}
+.form button{
+    background: white;
+    border:none;
+    border-radius: 20px;
+    text-align:center;
+    width: 30%;
+    height:30px;
+    color:grey;
+    transition: 0.5s ease;
+}
+.but:hover{
+    border:1px solid red;
+    box-shadow:0px 0px 50px red;
+    color: grey;
+}
+.div-1{
+    background: linear-gradient(120deg,black,rgb(29, 28, 28));
+    min-height: 100vh;
+    display: flex;
+
+}
+.div-2{
+    margin: auto;
+    display: block;
+    min-height: 100vh;
+    width: 500px;
+    min-width:320px;
+    transition: 0.5s ease;
+    border-left:1px solid red;
+    border-right:1px solid red;
+}
+.div-2:hover{
+    
+    box-shadow:0px 0px 5px red;
+
+}
+.nav-div{
+    transition: 0.5s ease;
+    margin-left:25px;
+    width: 90%;
+    padding:0px;
+    height:30px;
+    border:1px solid red;
+    box-shadow:0px 0px 50px red;
+   
+    
+}
+.nav-div-2{
+    transition: 0.5s ease;
+    position: relative;
+    margin: auto;
+    width: 90%;
+    margin-top: 2%;
+    text-align: center;
+    color: rgb(199, 196, 196);
+    padding:10px;
+    border:1px solid red;
+    border-radius: 20px;
+}
+.nav-div-2:hover{
+    background-image:linear-gradient(120deg,rgba(199, 37, 37, 0.308) 10%,rgba(0,0,0,0.3)70%);
+    box-shadow:0px 0px 5px red;
+    
+}
+.div-2 input{
+    
+    width: 90%;
+    position: relative;
+    border:none;
+    background: none;
+    border:1px solid red;
+    text-align:center;
+    border-radius: 20px;
+    height:30px;
+    margin-left: 5%;
+    color:white;
+    outline: none;
+    transition:0.5s ease;
+    
+}
+.div-2 input:hover{
+    background-image:linear-gradient(120deg,rgba(199, 37, 37, 0.308) 10%,rgba(0,0,0,0.3)70%);
+    box-shadow:0px 0px 5px red;
+}
+.div-2 input:focus{
+    background-image:linear-gradient(120deg,rgba(199, 37, 37, 0.308) 10%,rgba(0,0,0,0.3)70%);
+    box-shadow:0px 0px 5px red;
+}
+.sender{
+    color: white;
+    border:1px solid red;
+    text-align:center;
+    border-radius: 20px;
+    padding: 10px;
+    max-height:42px;
+    min-width: 20px;
+    transition:0.5s ease;
+}
+.sender:hover,.sended:hover,.left-1:hover{
+    background-image:linear-gradient(120deg,rgba(199, 37, 37, 0.308) 10%,rgba(0,0,0,0.3)70%);
+    box-shadow:0px 0px 5px red;
+}
+.sended{
+    transition:0.5s ease;
+    color: white;
+    border:1px solid red;
+    text-align:center;
+    border-radius: 20px;
+    padding: 10px;
+    overflow-wrap: break-word;
+    max-width: 50%;
+}
+.message{
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+.ag{
+    
+    display: block;
+    position:relative;
+    height:78vh;
+    width: 90%;
+    margin: auto;
+    
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(29, 28, 28);
+}
+.aoto{
+   
+    padding: 5% 0;
+    margin-top: 20px;
+    overflow: auto;
+    flex: auto;
+}
+.says{
+    color:white;
+    text-align:center;
+    padding: 10px;
+}
+.left-1{
+    position: relative;
+    color: white;
+    border:1px solid red;
+    text-align:center;
+    border-radius: 20px;
+    max-width: 50%;
+    padding: 10px;
+    overflow-wrap: break-word;
+}
+.left-2{
+    display: flex;
+    justify-content: space-between;
+}
+.none{
+    color:rgba(0, 0, 0, 0.0);
+}
+
+
